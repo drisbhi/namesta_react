@@ -1,0 +1,20 @@
+ * Important Notes of Episode 2 
+ 1. What is carret and tildet ?  -----> Interview Question 
+    Ans  ^ - this is carret -> It is used to in package.json file we are using this bezo it automatically
+         update the minor version of package.
+          ~ - this tildet -> It is updating the major version of package.
+ 2. what is diffrence between package.json and package-lock.json ?
+    Ans : package-lock.json will track of exact version that we have installed in our app whereas
+          package.json will track of installed and updated version.
+ 3. what is node module ? 
+    ans : node modules conatins all the code that we fetched from npm.  
+          It is a collection of dependencies.   
+ 4. Transitive dependencies ? 
+    when one dependencies have depends upon another dependencies and so on ..... this process is 
+    known as transitive dependencies.  
+
+ Notes --> 
+ If you have package and package.json you can regenerate node modules. (by using npm install command) 
+
+
+
