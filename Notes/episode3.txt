@@ -1,0 +1,14 @@
+1. What is React.createElement  ? 
+   React.createElement is an object but when we render inside the dom then it becomes HTML.
+   React.createElement -> Object -> HtmlElement(render) 
+2. what is JSX ? 
+   JSX is not (html inside javascript) - it is HTML LIKE OR XML syntax.
+   - JSX ( it transpiled before reaches to js) -> parcel -> Babel  
+   - JSX --> Babel transpiled it into -->  React.createElement -> Object -> HtmlElement(render)  
+3. React Component ? 
+   Two types of components
+   - Class based component
+   - Functional based component    
+   Functional component -> It is a normal javascript function which return jsx.
+4. what is component Composition ? 
+   When component is render inside another component.   

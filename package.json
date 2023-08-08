@@ -1,0 +1,31 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Everything and Anything related to React ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drisbhi/namesta_react.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "ash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drisbhi/namesta_react/issues"
+  },
+  "homepage": "https://github.com/drisbhi/namesta_react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,165 @@
+Question 1  What is the Difference Between a Framework and Library?
+
+Buy a house, or build your own carefully.
+
+Developers often use the terms “library” and “framework” as if they were the same. But there is a difference.
+
+Both libraries and frameworks are reusable code written by someone else. Their purpose is to help you solve common problems in easier ways.
+
+We can use a house as a metaphor to explain the difference between these concepts.
+
+A library is like building your home from scratch, you have the choice to make your house as you wish, with any architecture you like, you can sort your rooms in the way you like.
+
+On the other hand, Framework is like buying a new house, you don’t have to deal with building problems, but you can’t choose how to sort your rooms because the house is already built.
+
+
+From Stack Overflow
+The Technical Difference
+The technical difference between a framework and library lies in a term called inversion of control. When you use a library, you are in charge of the application flow. You choose when and where to call the library. When you use a framework, the framework is in charge of the flow. It provides you with a few places to plug in your code, but it calls the code you plugged in as needed.
+
+Framework Upsides
+Usually, a framework tells us what to do. it has the best practice of doing things and provides tooling to support us.
+
+Examples: Angular, Vue
+
+
+These frameworks created by dedicated teams, and ship with everything you need to build large-scale applications.
+
+These teams provide official style guides that follow best practices. Once you learn that you’re immediately productive.
+
+It also means that if you want to train new teammates, it will be easy.
+
+Framework Downsides
+A framework is built by writing a lot of code, this means longer loading time and a decrease in performance.
+
+Scalable architecture provides many things as we discussed above. Some applications are so simple, so using a framework makes things more complicated.
+
+With the Framework, we have a lot to learn. In every version, new things added and others removed or deprecated so you have to be up-to-date.
+
+Libraries Upsides
+On the other hand, we’re the ones who lead libraries.
+
+Examples: React, JQuery
+
+
+Libraries focus only on how to use it, which means that the team doesn’t support libraries for global state management, like HTTP, routing, forms, etc..
+
+And that is a choice, it gives the user the ability of picking libraries that he wants.
+
+That means using libraries, giving us full control of our application, you only add what you want, which makes the application smoother.
+
+Libraries Downsides
+When you are having fun making a specific architecture, it can ruin your application, so you need to take care of this.
+
+That’s why some people choose Angular or Vue because they don’t want to risk time and money building their own rules. they simply learn the framework’s rules and focus on playing the game.
+
+Conclusion
+You tell libraries what to do, frameworks tell you what to do.
+
+Overall, frameworks are more opinionated and libraries are more flexible. Both patterns of abstraction have their place in the world of programming, and while neither is inherently better, it’s important to determine which is appropriate for the problem you’re solving.
+
+
+------------------------------------------------------------------------------------------------------------------
+
+Question 2  what is CDN and Why do we use it ? 
+CDN stands for Content Delivery Network. What is it? Do we need it at all? Let’s talk about the importance of this type of tech, and how to improve the performance of a website by using this approach.
+
+Imagine you just launched an online store with 10 products which you sell to a local audience. Easy-peasy. You host your store using your local hosting provider, and it is pretty fast as it is.
+
+Nothing to worry about, right? Yes, until you hit the next level of growth.
+
+Imagine further, that in a year your web store grew and now you have 10000 products selling globally, to remote destinations. Even though our planet is not that big, we still have to consider physical internet connection.
+
+
+Here is where CDN comes into play. It helps us to connect with our users anywhere on Earth. Whether you have an online store, corporate website, news outlet, or a blog. If you sell far, you have to deliver your product images to your customers at an appropriate speed. Alternatively, your business suffers.
+
+Why so?
+Let’s put it simple. Longer your page load after a user requests it less likely she buys from you or even stays on your website.
+
+A one-second delay in page load time yields: 11% fewer page views, 16% decrease in customer satisfaction, 7% loss in conversions. crazyegg.com
+
+This annoying delay is called latency, a point where all website drop-offs take place.
+
+Therefore, CDN was invented to shorten the physical distance between the website user and the website’s hosting server.
+
+
+A bit of a tech
+Mainly speaking CDN is a bunch of servers placed in different locations all over the world. To minimize the physical distance between your website and your user you can choose to deliver it through CDN which would cache a copy of your content on each of their servers.
+
+
+Content delivery network, Wikipedia
+More tech about CDN here.
+
+How to implement?
+The first thing you have to do is to choose from the great variety of options. Most importantly, you have to consider your needs and resources as the implementation might be time-consuming and costly.
+
+CDN for large high-load websites. Choose a large CDN provider and set it up manually for your website. There are many various solutions for that on the market. Google CDN, MaxCDN, Amazon CloudFront, CoralCDN to name a few. You would have to configure the connection between your hosting provider and the CDN of your choice.
+CDN for small to middle-sized websites. Choose a hosting with CDN if your website is not that large and does not grow that much on a daily basis. Suitable for corporate websites, blogs, personal websites. Some hosting companies provide CDN as a part of their service. Indeed this option is excellent for small to middle size websites. You can turn on this option pretty quickly when you need it.
+CDN for fast scaling and automation. Next generation CDN, fits all sizes. Perfect for fast-growing companies, startups, and fast scaling tasks. Choose a SaaS CDN-based solution if you have a possibility to experience rapid growth or you would like to save money on implementation. This type of CDN also has an advantage of functionality it brings with it when you sign up.
+For instance, Image Processing CDN can help you process your images, to do scaling and optimization. You won’t need to set it up yourself as it works out-of-the-box.
+
+
+Even more Benefits
+Apart from world distribution and enchanted latency, there are few more benefits that CDN can provide:
+
+SEO Improvement. Google and other search engines love fast and efficient websites. Speed is the most important Google SEO ranking factor. Better the speed, higher a website can appear in search. So, therefore, more leads and sales it can acquire.
+Scalability. Protects your website from traffic spikes which can make your website stop responding. Your end-users would not be affected at all.
+Security. Any website can come across DDoS attacks or similar. CDN can solve this problem pretty easily.
+Last but not least, any successful business experience growth which leads to the growth of traffic to the website and more public attention. I would suggest looking into CDN at the very beginning of your website creation as it would be much easier to plan, choose a provider and implement it according to your business needs.
+
+However, the easiest way to test the benefits of CDN would be to use SaaS CDN solutions.
+
+If you have any questions or comments, please post below or head to the Pixboost Image Processing CDN website where you can read more in-depth about Image CDN and its benefits.
+
+------------------------------------------------------------------------------------------------------------------
+
+Question 3 -> Why react is known as React ?
+
+React, a JavaScript library for building user interfaces, is called "React" because of its core concept of reactive programming. The name "React" reflects its ability to efficiently update and render components in response to changes in data or state.
+
+React was developed by Facebook and was initially released in 2013. It was open-sourced in the same year, allowing developers from around the world to contribute to its development and use it in their projects.
+
+The name "React" highlights the key principle of the library, which is the reactivity of components. React introduces a virtual representation of the user interface called the "Virtual DOM," which efficiently updates only the necessary components when the underlying data or state changes. This reactive approach ensures that the user interface stays in sync with the application's data and provides a smooth and performant user experience.
+
+Additionally, the name "React" also signifies the declarative nature of the library. With React, developers can describe how the UI should look based on the current state, and React takes care of efficiently updating the actual UI to match that description. This declarative programming paradigm allows developers to focus on the "what" rather than the "how" of building UIs.
+
+In summary, the name "React" reflects the library's core principle of reactive programming and its ability to efficiently update and render components in response to changes, while also highlighting its declarative nature.
+
+------------------------------------------------------------------------------------------------------------------
+Question 4   What is cross origin in script tag ? 
+
+As we know that HTML introduces many elements and attribute that have some definition and specification that will be used for the enhancement of web development. In this article, we will learn how to use crossorigin attributes in HTML.
+
+The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+
+CORS: It stands for cross-origin resource sharing. It is a mechanism by which one webpage requests to another domain for fetching out the resource like audio, video, script, etc. from the third party server without leaking their credentials information. 
+
+------------------------------------------------------------------------------------------------------------------
+
+Question 5 What is diffrence between react and react dom ?
+
+The Difference
+The difference between React and React-DOM :
+
+React: React is a javascript library, designed for building better user interfaces.
+
+React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM.
+
+In a nutshell, Whenever we use component, classes, elements, etc. We’re using React and whenever we use 
+methods like render() or findDOMNode() we’re using React-DOM.
+
+The Split
+Why did the React team decide to split React and React-DOM into two different libraries?
+
+Because React-DOM binds the idea of React to a web browser. And ideally, React has nothing to do with
+ a browser or web for that matter. That’s why we’re seeing tools and frameworks like React-Native,
+React-Three being developed. These tools and frameworks don’t use React-DOM, but they do in fact use
+the idea behind React.
+
+This is what the team had to say when they were splitting these two libraries
+
+As we look at packages like react-native, react-art, react-canvas, and react-three, it's become clear that the beauty and essence of React has nothing to do with browsers or the DOM.
+
+To make this more clear and to make it easier to build more environments that React can render to, we’re splitting the main react package into two: react and react-dom.
+
+------------------------------------------------------------------------------------------------------------------
