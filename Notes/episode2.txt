@@ -1,6 +1,6 @@
  * Important Notes of Episode 2 
  1. What is carret and tildet ?  -----> Interview Question 
-    Ans  ^ - this is carret -> It is used to in package.json file we are using this bezo it automatically
+    Ans  ^ - this is carret -> It is used in package.json file we are using this bezo it automatically
          update the minor version of package.
           ~ - this tildet -> It is updating the major version of package.
  2. what is diffrence between package.json and package-lock.json ?
@@ -33,9 +33,6 @@
     - Error Handling 
     - HTTPS
     -Tree Shaking Algorithm  -> it removed unused from you
-
-
-
 
 
 
